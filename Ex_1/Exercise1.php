@@ -1,10 +1,12 @@
 <?php   
 
-$email = $_POST["email"];
-$password = ~$_POST["password"];
 
-echo  $email .PHP_EOL;
-echo  $password .PHP_EOL;
+$_SESSION["username"] = $_POST["username"];
+$_SESSION["email"] = $_POST["email"];
+$_SESSION["password"] = $_POST["password"];
+
+echo $_SESSION["username"].PHP_EOL;
+echo $_SESSION["email"] .PHP_EOL;
 
 
 
