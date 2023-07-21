@@ -27,6 +27,8 @@ body {
     width: 150px;
     display: top: auto;
     margin: 20px auto;
+    margin-left: 120px;
+    
 }
 
 .text {
@@ -37,7 +39,26 @@ body {
     margin-bottom: 25px;
  
 }
-
+.form-body input [name="Username"]{
+   /* margin-top: 20px;
+    margin-bottom: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;*/
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;*
+    padding-left: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
 .form-body input{
     display: block;
     margin: auto;
@@ -58,6 +79,7 @@ body {
 
 .form-body input[type="password"]{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 ::placeholder{
@@ -73,7 +95,7 @@ body {
 
 .form-body button{
     display: block;
-    margin: 20px;
+    margin: auto;
     margin-top: 25px;
     margin-bottom: 30px;
     height: 40px;
